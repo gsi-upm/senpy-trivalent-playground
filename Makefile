@@ -1,16 +1,15 @@
-NAME=senpy
-GITHUB_REPO=git@github.com:gsi-upm/senpy.git
+NAME=trivalent-playground
 
-IMAGENAME=gsiupm/senpy
+
+IMAGENAME=gsiupm/trivalent-playground
 
 # The first version is the main one (used for quick builds)
 # See .makefiles/python.mk for more info
-PYVERSIONS=3.5 2.7
+PYVERSIONS=3.5
 
 DEVPORT=5000
 
 action="test-${PYMAIN}"
-GITHUB_REPO=git@github.com:gsi-upm/senpy.git
 
 include .makefiles/base.mk
 include .makefiles/k8s.mk
