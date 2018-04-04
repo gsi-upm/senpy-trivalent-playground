@@ -15,7 +15,7 @@ spec:
       - name: registry.cluster.gsi.dit.upm.es
       containers:
       - name: trivalent-play
-        image: registry.cluster.gsi.dit.upm.es/trivalent/trivalent-playground:0.1.4-dirty-python3.5
+        image: registry.cluster.gsi.dit.upm.es/trivalent/trivalent-playground:0.1.4-18-g82ad81c-dirty-python3.5
         imagePullPolicy: Always
         args:
           - "--default-plugins"
