@@ -5,6 +5,5 @@ dist
 build
 README.html
 __pycache__
-VERSION
 Dockerfile-*
 Dockerfile
