@@ -1,6 +1,6 @@
 NAME=trivalent-playground
 VERSIONFILE:=VERSION
-IMAGENAME=trivalent-playground
+IMAGENAME=registry.cluster.gsi.dit.upm.es/trivalent-playground
 
 # The first version is the main one (used for quick builds)
 # See .makefiles/python.mk for more info

@@ -56,20 +56,6 @@ push-github:
     - triggers
     - fix-makefiles
 
-deploy_pypi:
-  stage: deploy
-  script:   # Configure the PyPI credentials, then push the package, and cleanup the creds.
-    - echo "[server-login]" >> ~/.pypirc
-    - echo "repository=https://upload.pypi.org/legacy/" >> ~/.pypirc
-    - echo "username=" ${PYPI_USER} >> ~/.pypirc
-    - echo "password=" ${PYPI_PASSWORD} >> ~/.pypirc
-    - make pip_upload
-    - echo "" > ~/.pypirc && rm ~/.pypirc  # If the above fails, this won't run.
-  only:
-    - /^v?\d+\.\d+\.\d+([abc]\d*)?$/  # PEP-440 compliant version (tags)
-  except:
-    - branches
-
 deploy:
   stage: deploy
   environment: test
