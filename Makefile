@@ -1,6 +1,6 @@
 NAME=trivalent-playground
 VERSIONFILE:=VERSION
-IMAGENAME=gsiupm/trivalent-playground
+IMAGENAME=trivalent-playground
 
 # The first version is the main one (used for quick builds)
 # See .makefiles/python.mk for more info
