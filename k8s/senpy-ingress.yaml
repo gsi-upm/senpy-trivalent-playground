@@ -5,10 +5,10 @@ metadata:
   name: senpy-ingress
 spec:
   rules:
-  - host: latest.senpy.cluster.gsi.dit.upm.es
+  - host: trivalent-playground.cluster.gsi.dit.upm.es
     http:
       paths:
       - path: /
         backend:
-          serviceName: senpy-latest
+          serviceName: trivalent-play
           servicePort: 5000

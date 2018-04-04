@@ -1,6 +1,5 @@
 NAME=trivalent-playground
-
-
+VERSIONFILE:=VERSION
 IMAGENAME=gsiupm/trivalent-playground
 
 # The first version is the main one (used for quick builds)
