@@ -2,7 +2,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: senpy-ingress
+  name: trivalent-ingress
 spec:
   rules:
   - host: trivalent-playground.cluster.gsi.dit.upm.es

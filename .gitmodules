@@ -1,6 +1,0 @@
-[submodule "example-plugins/cogito-plugin"]
-	path = example-plugins/cogito-plugin
-	url = http://lab.cluster.gsi.dit.upm.es/trivalent/cogito-plugin/
-[submodule "example-plugins/translator-bing"]
-	path = example-plugins/translator-bing
-	url = http://lab.cluster.gsi.dit.upm.es/senpy/translator-bing/
