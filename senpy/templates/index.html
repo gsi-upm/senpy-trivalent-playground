@@ -24,7 +24,7 @@
       <div id="header">
         <h3 id="header-title">
           <a href="https://github.com/gsi-upm/senpy" target="_blank">
-            <img id="header-logo" class="imsg-responsive" src="static/img/header.png"/></a> Playground
+            <img id="header-logo" class="imsg-responsive" src="static/img/header.png"/></a> Playground <span style="color:#419bd7; font-size:large">for TRIVALENT</span>
           <a style= "float:right" href="http://www.gsi.dit.upm.es/index.php/es/investigacion/proyectos?view=project&task=show&id=96" target="_blank"><img width="120px" src="static/img/trivalent.jpg"/>  </a> 
         </h3>
       </div>
@@ -39,13 +39,13 @@
 
           <div class="row">
                 <div class="col-lg-6">
-                  <h2>About Senpy</h2>
+                  <h2>About Senpy Playground for Trivalent</h2>
+                                    <p>
+                    This website is the Senpy Playground for Trivalent, which allows you to test the Senpy plugins developed inside the project. It provides a user-friendly interface to the functions exposed by the senpy API.
+                    </p>
                   <p>Senpy is a framework to build semantic sentiment and emotion analysis services. It does so by using a mix of web and semantic technologies, such as JSON-LD, RDFlib and Flask.</p>
                   <p>Senpy makes it easy to develop and publish your own analysis algorithms (plugins in senpy terms).
                   </p>
-                  <p>
-                    This website is the senpy Playground, which allows you to test the instance of senpy in this server. It provides a user-friendly interface to the functions exposed by the senpy API.
-                    </p>
                   <p>
                     Once you get comfortable with the parameters and results, you are encouraged to issue your own requests to the API endpoint. You can find examples of API URL's when you try out a plugin with the "Analyse!" button on the "Test it" tab.
                   </p>
@@ -89,9 +89,8 @@
         <div class="tab-pane active" id="test">
           <div class="well">
             <form id="form" class="container" onsubmit="return getPlugins();" accept-charset="utf-8">
-                <div><textarea id="input" class="boxsizingBorder" rows="5" name="i">This text makes me sad.
-whilst this text makes me happy and surprised at the same time.
-I cannot believe it!</textarea>
+                <div><textarea id="input" class="boxsizingBorder" rows="5" name="i">In June 2014, after it captured Mosul, Iraq’s second-largest city, the Islamic State wanted both legitimacy and revenue. To get that, it used armed militants — and seasoned bureaucrats.
+The militants targeted landowners who did not share their strict Sunni faith. Then they rented the land out to farmers like Ghanim Khalaf.</textarea>
                 </div>
                 <div>
                     <label>Select the plugin:</label>
