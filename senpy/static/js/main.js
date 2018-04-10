@@ -171,7 +171,10 @@ function params_div(params){
                 opts = [true, false];
             }
             html+= '<select class="col-sm-8" id="'+pname+"\" name=\""+pname+"\">"
-            var defaultopt = param.default;
+            if(param['@id'] == 'outformat'){
+                var defaultopt = 'turtle';
+            }
+            else { var defaultopt = param.default; }
             for (option in opts){
                 isselected = "";
                 if (defaultopt != undefined && opts[option] == defaultopt ){
